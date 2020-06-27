@@ -2,4 +2,103 @@ body {
   width: 1440px;
   height: 2792px;
   background: #CCCCCC;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/rectangle.png), #C4C4C4;
+  width: 1440px;
+  height: 726px;
+}
+
+.logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 37px 0 0 150px
+}
+
+#nav-bar {
+  float:right;
+  margin: 37px 162px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+#nav-bar svg {
+  margin-left: 24px;
+}
+
+.down-image {
+  margin-right: 5px;
+  margin-left: 30px;
+  margin-bottom: -5px;
+}
+
+#headers {
+  width: 549px;
+  height: 304px;
+  margin-top: 146px;
+  margin-left: 142px;
+}
+
+.title {
+  font-size: 53.2px;
+  line-height: 62px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.title2 {
+  font-size: 18.2px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-top: 11px;
+}
+
+.rintagle {
+  width: 179px;
+  height: 54px;
+  background: #F44336;
+  box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
+  border-radius: 3px;
+  margin-top: 42px;
+}
+
+.video {
+  font-size: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.watch {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#content {
+  width: 1380px;
+  height: 2045px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  margin-left: 30px;
+  margin-top: 155px;
 }
