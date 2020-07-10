@@ -36,15 +36,23 @@ a {
   margin-left: 24px;
 }
 
- @media screen and (max-width: 768px) {
-header {
-  width: 768px;
-height: 597px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/rectangle.png), #C4C4C4;
-}
+@media screen and (max-width: 768px) {
+  body{
+   background: #ccc;
+   height: 726px;
+   margin: auto;
+   width: 768px;
+  }
+
+  header {
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/rectangle.png), #C4C4C4;
+   height: 597px;
+   width: 768px;
+  }
+
   .tablet {
-   height: 67px;
    background: rgba(0, 0, 0, 0.4);
+   height: 67px;
   }
 
   .logo {
@@ -52,23 +60,51 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(.
   }
 
   #nav-bar{
-    margin: 21px 26px;
+   margin: 21px 26px;
   }
 }
 
-
-  .title {
-   width: 648px;
+@media screen and (max-width: 425px) {
+  body{
+   width: 425px;
   }
 
-  #content {
+  header {
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/rectangle.png), #C4C4C4;
+   height: 664px;
+   width: 425px;
+ }
+
+ .tablet {
+  background: rgba(0, 0, 0, 0.4);
+  height: 62px;
+  width: 425px;
+}
+
+  .logo {
+   margin: 15px 0 25px 15px;
+  }
+
+  #nav-bar{
+   display: none;
+  }
+
+  .menu-icon::before {
+   content: url('../images/menu2.png');
+   margin-left: 264px;
+  }
+}
+
+.title {
+  width: 648px;
+}
+
+#content {
   width: 748px;
   height: 3481px;
   box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-  }
-
-
+}
 
 .down-image {
   margin: 0 5px -5px 30px;
@@ -85,6 +121,18 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(.
    margin: 107px 0 0 24px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  #headers {
+   height: 416px;
+   width: 383px;
+  }
+
+  .title {
+   width: 345px;
+  }
+}
+
 .title {
   color: #fff;
   font-size: 53.2px;
@@ -175,7 +223,6 @@ h2 {
   text-align: center;
 }
 
-
 .second-f {
   display: inline-block;
   height: 201px;
@@ -187,7 +234,6 @@ h2 {
   display: inline-block;
   height: 201px;
   width: 328px;
-
 }
 
 #team {
@@ -298,13 +344,11 @@ h6 {
   font-family: Roboto;
   font-size: 14px;
   height: 17px;
-
 }
 
 [type="name"]:hover {
   border: none;
-  border-bottom: 2px solid #9C27B0;
-
+  border-bottom: 2px solid #9C27b0;
 }
 
 .right {
@@ -322,7 +366,6 @@ h6 {
 [type="message"]:hover {
   border: none;
   border-bottom: 2px solid #9C27b0;
-
 }
 
 [name="button"] {
@@ -333,6 +376,10 @@ h6 {
   height: 41px;
   margin: 25px 0 0 301px;
   width: 148px;
+}
+
+.colortext {
+  color: #9C27b0;
 }
 
 [name="button"]:hover {
@@ -352,88 +399,182 @@ button {
 
 @media screen and (max-width: 768px) {
   #content {
-  width: 748px;
-  height: 3481px;
-  background: #fff;
-  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  margin-left: 10px;
- }
- h1 {
+   height: 3481px;
+   margin-left: 10px;
+   width: 748px;
+
+  }
+
+  h1 {
    font-weight: normal;
    margin: 94px 235px;
- }
+  }
 
-.text  {
-margin-left: 13px;
- }
- .first-f {
+  .text  {
+   margin-left: 13px;
+  }
+
+  .first-f {
    display: block;
    margin: 162px 205px 0;
- }
- .second-f {
+  }
+
+  .second-f {
    display: block;
    margin: 107px 207px;
  }
+
  .third-f {
-   display: block;
-   margin: 100px 210px;
+  display: block;
+  margin: 100px 210px;
  }
+
  h5 {
-margin-left: 241px;
+  margin-left: 241px;
  }
+
  #team {
-   margin: 0;
+  margin: 0;
  }
-.one {
- width: 713px;
- margin-left: 19px;
+
+ .one {
+  margin-left: 19px;
+  width: 713px;
  }
+
  .avatar1{
- margin-left: 239px;
+  margin-left: 239px;
  }
 
  .two {
-   width: 713px;
-   margin-left: 19px;
+  width: 713px;
+  margin-left: 19px;
  }
+
  .three {
-   width: 713px;
-   margin-left: 19px;
+  width: 713px;
+  margin-left: 19px;
  }
+
  .TW {
-   margin-left: 300px;
+  margin-left: 300px;
  }
+
  .tw2 {
-   margin: 0 29px 0 314px;
+  margin: 0 29px 0 314px;
  }
 
  #work-us {
-   width: 716px;
-   height: 500px;
-   margin: 185px 0 0 16px;
+  height: 500px;
+  margin: 185px 0 0 16px;
+  width: 716px;
  }
+
  .type-bg {
    margin: 0;
  }
- [type="name"] {
-    border: none;
-    border-bottom: 1px solid grey;
-    height: 38px;
-    outline: none;
-    width: 716px;
+
+  [type="name"] {
+   border-bottom: 1px solid grey;
+   height: 38px;
+   width: 716px;
   }
+
   [type="message"] {
-    border: none;
-    outline: none;
-    border-bottom: 1px solid grey;
-    height: 92px;
-    width: 716px;
-}
+   border-bottom: 1px solid grey;
+   width: 716px;
+  }
 
   [name="button"] {
-  margin-left: 284px;
+   margin-left: 284px;
+  }
 }
+
+@media screen and (max-width: 425px) {
+  #content {
+   height: 3718px;
+   width: 405px;
+  }
+
+  h1 {
+   margin: 94px 60px 0 65px;
+  }
+
+  .text {
+   width: 368px;
+  }
+
+  .first-f {
+   margin: 162px 36px 0
+  }
+
+  .second-f {
+   margin: 108px 39px 0;
+  }
+
+  .third-f {
+    margin: 108px 39px 0;
+  }
+
+  #team {
+   height: 1402px
+   margin-left 9px;
+   width: 373px;
+  }
+
+  h5 {
+   height: 43px;
+   margin: 207px 68px 0 69px;
+   width: 268px;
+  }
+
+  .one {
+   height: 411px;
+   width: 372px;
+  }
+
+  .avatar1 {
+   margin-left: 70px;
+  }
+
+  .TW {
+   margin-left: 130px;
+  }
+
+  .two {
+   height: 411px;
+   width: 372px;
+  }
+
+  .three {
+   height: 411px;
+   width: 372px;
+  }
+
+  .tw2 {
+   margin: 0 29px 0 144px;
+  }
+
+  h6 {
+   margin: 185px 92px;
+   width: 209px;
+  }
+
+  .text6 {
+   width: 378px;
+  }
+
+  [type=name] {
+   width: 378px;
+  }
+
+  [type=message] {
+   width: 378px;
+  }
+
+  [name=button] {
+   margin-left: 122px;
+  }
 }
 
 footer {
@@ -444,7 +585,7 @@ footer {
 }
 
 #foot-menu {
-margin-left: 135px;
+ margin-left: 135px;
 }
 
 footer a{
@@ -461,17 +602,23 @@ footer p {
 
 @media screen and (max-width: 768px) {
   footer {
-    width: 659px;
-    height: 62px;
-    display: block;
-    margin: 31px 0 0 39px;
+   display: block;
+   height: 62px;
+   margin: 31px 0 0 39px;
+   width: 659px;
   }
 
   #foot-menu{
-    margin: 0;
+   margin: 0;
   }
 
   #footer-right {
-    text-align: center;
+   margin-left: 260px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #footer-right {
+   margin-left: 90px;
   }
 }
